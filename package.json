@@ -1,0 +1,41 @@
+{
+  "name": "leet-code-javascript",
+  "version": "1.0.0",
+  "description": "Collection of examples solved on www.leetcode.com",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest src",
+    "pretty": "prettier -w src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwac09/leet-code-js.git"
+  },
+  "keywords": [
+    "leetcode",
+    "js"
+  ],
+  "author": "vishwac09",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vishwac09/leet-code-js/issues"
+  },
+  "homepage": "https://github.com/vishwac09/leet-code-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@eslint/js": "^9.4.0",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.4.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.0"
+  }
+}
