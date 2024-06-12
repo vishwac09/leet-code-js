@@ -1,4 +1,4 @@
-import { twoSum } from '../TwoSum';
+import { twoSum } from '../index';
 
 describe('Problem two sum test', () => {
   test('Test should pass and return the correct indices', () => {
